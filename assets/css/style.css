@@ -1,17 +1,21 @@
-body {
-    background-color: whitesmoke;
+* {
+    box-sizing: border-box;
 }
 
-#bigbluebox {
+body {
+    background-color: #e6e7ea;
+}
+
+.bigbluebox {
     background-color: #4a5a9e;
     height: 350px;
     width: 850px;
     position: relative;
-    margin: auto;
+    margin:  0 auto;
     z-index: 2;
 }
 
-#profilepic {
+.profilepic {
     background-color:#4a5a9e;
     border: 1px solid black;
     height: 150px;
@@ -23,12 +27,29 @@ body {
     z-index: 3;
 }
 
-#header {
+.navbar {
     background-color: white;
-    height: 350px;
+    height: 295px;
     width: 850px;
     position: relative;
     top: -400px;
-    margin: auto;
+    margin: 0 auto;
     z-index: 1;
+}
+
+li {
+   position: relative; 
+   top: -450px;
+   left: 180px;
+   list-style-type: none;
+   float: left;
+   padding: 0px, 10px;
+   z-index: 5;
+}
+
+.buttongroup {
+    position: relative;
+    top: -200px;
+    left: 800px;
+    z-index: 5;
 }
