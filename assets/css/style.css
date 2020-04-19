@@ -4,6 +4,7 @@
 
 body {
     background-color: #e6e7ea;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bigbluebox {
@@ -12,44 +13,162 @@ body {
     width: 850px;
     position: relative;
     margin:  0 auto;
-    z-index: 2;
+    z-index: 1;
+    border-radius: 3.5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .profilepic {
     background-color:#4a5a9e;
     border: 1px solid black;
+    border-radius: 1.75%;
     height: 150px;
     width: 150px;
     position: relative;
     top: -120px;
     left: -335px;
-    margin: auto;
+    margin:  0 auto;
+    z-index: 2;
+}
+
+#header {
+    position: relative;
+    top: 40px;
+    left: 170px;
+    width: 200px;
     z-index: 3;
+    margin: 2;
+}
+
+#subheader {
+    position: relative;
+    top: 25px;
+    left: 170px;
+    width: 170px;
+    z-index: 3;
+    margin: 2;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    
+}
+h3 {
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    
 }
 
 .navbar {
     background-color: white;
-    height: 295px;
+    height: 50px;
     width: 850px;
     position: relative;
-    top: -400px;
+    top: -167px;
+    left: 0px;
     margin: 0 auto;
     z-index: 1;
+    border-bottom-left-radius: 3.5px;
+    border-bottom-right-radius: 3.5px;
 }
 
 li {
    position: relative; 
-   top: -450px;
-   left: 180px;
+   top: -325px;
+   left: 770px;
    list-style-type: none;
-   float: left;
-   padding: 0px, 10px;
+   display: inline-block;
    z-index: 5;
+   padding: 4.5px 10px;
+   
+}
+
+#links {
+
+    border-right: 1px solid #e6e7ea;
 }
 
 .buttongroup {
-    position: relative;
-    top: -200px;
-    left: 800px;
+    position: relative; 
+    text-align: right;
+    top: -25px;
+    left: 580px;
     z-index: 5;
+    width: max-content;
+    border-radius: 3.5px;
+}
+
+button {
+    height: 30px;
+    float: left;
+    margin: -1px;
+}
+
+#like {
+    position: relative;
+    left: -10px;
+    font-weight: bold;
+}
+#follow {
+    color: #999da6;
+    font-weight: bold;
+}
+
+#message {
+    font-weight: bold;
+}
+
+ul {
+    position: relative; 
+    text-align: right;
+    top: 330px;
+    left: -635px;
+    z-index: 5;
+    width: max-content;
+}
+
+#timeline {
+    font-weight: bold;
+    padding: 10px 0px;
+    border-bottom: 5px solid #4a5a9e;
+}
+
+#etc {
+    text-align: center;
+    font-size: 20px;
+}
+
+.left {
+    position: relative; 
+    background-color: white;
+    width: 328px;
+    border-radius: 3.5px;
+}
+
+.about {
+    color: black;
+    position: relative;
+    top: -30px;
+    font-weight: bold;
+}
+#leftheader{
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid #e6e7ea;
+}
+
+#aboutheader{
+    position: relative;
+    padding: 20px;
+}
+
+.right {
+    position: relative; 
+    background-color: white;
+    width: 512px;
+    border-radius: 3.5px;
 }
