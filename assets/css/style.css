@@ -69,6 +69,7 @@ h3 {
     height: 50px;
     width: 850px;
     position: relative;
+    box-sizing: content-box;
     top: -157px;
     left: 0px;
     margin: 0 auto;
