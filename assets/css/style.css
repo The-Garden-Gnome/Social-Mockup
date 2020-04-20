@@ -69,7 +69,6 @@ h3 {
     height: 50px;
     width: 850px;
     position: relative;
-    box-sizing: content-box;
     top: -157px;
     left: 0px;
     margin: 0 auto;
@@ -131,6 +130,7 @@ button {
 ul#mainlinks {
     position: relative; 
     text-align: right;
+    box-sizing: ;
     top: 330px;
     left: 200px;
     z-index: 5;
